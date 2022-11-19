@@ -634,7 +634,7 @@ a:hover {
 }
 
 .intro .text-slider-items {
-  display: none;
+  display: flex;
 }
 
 .intro-single {
