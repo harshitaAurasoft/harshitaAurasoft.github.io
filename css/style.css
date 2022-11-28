@@ -12,6 +12,7 @@
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
+  word-wrap: break-word;
 }
 
 h1,
@@ -90,7 +91,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .overlay-mf {
@@ -178,10 +179,10 @@ a:hover {
 .title-left:before {
   content: '';
   position: absolute;
-  height: 3px;
+  height: 2px;
   background-color: #0078ff;
-  width: 100px;
-  bottom: -12px;
+  width: 200px;
+  bottom: -10px;
 }
 
 /*------/ Box /------*/
@@ -682,6 +683,7 @@ a:hover {
 
 .about-mf .about-img img {
   margin-left: 10px;
+  margin-top: 10px;
 }
 
 .skill-mf span {
@@ -1072,7 +1074,7 @@ a:hover {
 footer {
   text-align: center;
   color: #fff;
-  padding-bottom: 4rem;
+  /* padding-bottom: 4rem; */
 }
 
 footer .copyright {
